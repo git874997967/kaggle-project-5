@@ -57,4 +57,5 @@ profile <-
 plot(profile)#图形的形式查看多个变量的模型效果最好
 profile$optVariables
 print(profile)#查看本次特征选择保留下来的变量
+
  
