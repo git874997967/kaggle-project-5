@@ -3,11 +3,6 @@ library(dplyr)
 library(rpart)
 library(VIM)
 library(mice)
-train = read.csv2(file.choose(), stringsAsFactors = F)
-t=read.csv(file.choose(), stringsAsFactors = T)
-test = read.csv(file.choose(), stringsAsFactors = F)
-
-
 # attach(data)
 # missing=data.frame(train[!is.na(Id),])
 # missing$
